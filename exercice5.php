@@ -45,7 +45,7 @@ elseif($mois==12){
     $lettre="Décembre";
 }
 else {
-    echo("Ce mois n'existe pas");
+    echo("Ce mois n'existe pas <br>");
 }
 if($mois<=12){
     if($mois==4 || $mois==6 || $mois==9 || $mois==11){
@@ -76,7 +76,7 @@ if($mois<=12){
             echo("$jour/$mois/$annee ou $jour $lettre $annee est la date genérée <br>");
         }
         else {
-            echo("La date genérée n'est pas valide");
+            echo("La date genérée n'est pas valide <br>");
         }
     }
 }
